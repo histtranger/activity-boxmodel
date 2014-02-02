@@ -25,3 +25,17 @@ img {
 	width: 100%;
     display: block;
 }
+
+.masshead {
+    background-color:#CC33FF;
+    overflow:hidden
+}
+
+.logo {height: 4.5rem;
+        width: auto;
+        margin: 0.5rem 5%;
+        
+    /* display: block is how to center. float is to align things*/
+        display:block;
+        margin: .5rem auto
+}
