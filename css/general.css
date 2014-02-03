@@ -19,6 +19,18 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    background-color: #E6E6B8
+}
+
+
+body {
+    margin: 0; 
+    padding: 0
+}
+
+article { margin: 0;
+    padding: 0 5%;
+        overflow:hidden;
 }
 
 img {
@@ -27,15 +39,58 @@ img {
 }
 
 .masshead {
-    background-color:#CC33FF;
+    background-color:#000;
     overflow:hidden
 }
 
 .logo {height: 4.5rem;
         width: auto;
         margin: 0.5rem 5%;
-        
-    /* display: block is how to center. float is to align things*/
         display:block;
         margin: .5rem auto
+}
+
+article {font-family: Arial, Impact, Sans-Serif;
+}
+
+h1 { height: 6rem;
+        width: auto;
+        margin: 0.5rem 5%;
+        display:block;
+        margin: .5rem auto;
+        font-family: Impact, Sans-Serif;
+        text-align: center;
+        font-size: 6rem
+}
+
+h1 + p {font-size: 1.25rem;
+    font-weight: bold;
+        text-align:center
+}
+
+figure { 
+    margin: 0 auto 1.5rem; /* auto: in case we want smaller */
+    width: 80%; /* size can be smaller, but not larger then 100%. Auto makes it so that when it gets smaller, the right and left margins are automatic*/
+}
+
+figcaption { 
+    margin: .5rem 0 0;
+    font-size: 0.75rem;
+}
+
+
+footer {
+    background-color: black;
+    overflow:hidden
+}
+
+
+footer p {/* p is a descendant is of footer*/
+    margin: .5rem 5% 5rem;
+    color: yellow;
+    font-size: .75rem
+}
+
+footer a {
+    color: yellow
 }
